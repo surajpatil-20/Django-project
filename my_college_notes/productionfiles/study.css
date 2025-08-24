@@ -1,0 +1,157 @@
+body{
+    background-color: rgba(90, 82, 82, 0.405);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image: url("study/static/back.jpeg");
+}
+.success { color: green; }
+.error { color: red; }
+.info { color: blue; }
+
+.signup{
+    position: relative;
+    top: 30vh;
+    padding: 0px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    background-color: skyblue;
+}
+.signup > input{
+    margin-bottom:10px;
+    width: 280px;
+    padding-left:5px ;
+    height: 20px;
+    border-radius: 5px;
+}
+.signup > button{
+    padding: 5px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+}
+input:hover{
+    border: 2px solid gold;
+}
+.signup > button:hover{
+    border: 2px solid gold;
+    color: white;
+    cursor: pointer;
+}
+
+.signin{
+    position: relative;
+    top: 30vh;
+    padding: 0px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    background-color: skyblue;
+}
+.signin > input{
+     margin-bottom:10px;
+    width: 280px;
+    padding-left:5px ;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.signin > button{
+    padding: 5px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.signin > button:hover{
+    border: 2px solid gold;
+    color: white;
+    cursor: pointer;
+}
+
+
+input{
+    outline: 1px solid black;
+}
+
+.message > .messages{
+    position: relative;
+    top: 30vh;
+}
+
+
+
+
+
+/* home */
+
+.topnav{
+    background-color: rgba(90, 82, 82, 0.405);
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.container > .topnav > h3{
+    position: absolute;
+    right: 0px;
+    padding-right: 20px;
+}
+.container > .topnav > .upload_files{
+    margin-right: 90px;
+}
+
+.note{
+    background-color: rgb(197, 117, 103);
+    padding: 10px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+table{
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+}
+table td, table th{
+    width: auto;
+    padding: 5px;
+}
+.footer{
+    height: 200px;
+    font-size: 30px;
+    background-color: rgba(90, 82, 82, 0.405);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+i:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+/*upload files*/
+
+.upload{
+    position: relative;
+    top: 30vh;
+    left: 0vw;
+}

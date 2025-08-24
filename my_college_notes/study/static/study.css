@@ -1,0 +1,240 @@
+body{
+    background-color: rgba(90, 82, 82, 0.405);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    overflow-x: hidden;
+}
+.success { color: green; }
+.error { color: red; }
+.info { color: blue; }
+
+.signup{
+    position: relative;
+    top: 30vh;
+    padding: 0px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    background-color: skyblue;
+}
+.signup > input{
+    margin-bottom:10px;
+    width: 280px;
+    padding-left:5px ;
+    height: 20px;
+    border-radius: 5px;
+}
+.signup > button{
+    padding: 5px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+}
+input:hover{
+    border: 2px solid gold;
+}
+.signup > button:hover{
+    border: 2px solid gold;
+    color: white;
+    cursor: pointer;
+}
+
+.signin{
+    position: relative;
+    top: 30vh;
+    padding: 0px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    background-color: skyblue;
+}
+.signin > input{
+     margin-bottom:10px;
+    width: 280px;
+    padding-left:5px ;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.signin > button{
+    padding: 5px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.signin > button:hover{
+    border: 2px solid gold;
+    color: white;
+    cursor: pointer;
+}
+
+
+input{
+    outline: 1px solid black;
+}
+
+.message > .messages{
+    position: relative;
+    top: 30vh;
+}
+
+
+
+
+
+/* home */
+
+.topnav{
+    background-color: rgba(90, 82, 82, 0.405);
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.container > .topnav > h3{
+    position: absolute;
+    right: 0px;
+    padding-right: 20px;
+}
+.container > .topnav > .upload_files{
+    margin-right: 90px;
+}
+
+@media only screen and (max-width:375px){
+    .container > .topnav > .upload_files{
+        margin-right: 60px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .container > .topnav > h2{
+        font-size: 16px;
+    }
+}
+
+.container > .topnav > h3 > button{
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.container > .topnav > h3 > button > a:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+
+.note{
+    background-color: rgb(197, 117, 103);
+    padding: 10px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+
+    .container > .filter{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .container > .filter > div{
+        margin-bottom: 10px;
+    }
+
+
+.table{
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+table{
+    margin: auto;
+    margin-top: 10px;
+    width: 100vw;
+}
+table td, table th{
+    width: auto;
+    padding: 5px;
+}
+.footer{
+    height: 40vh;
+    font-size: 30px;
+    background-color: rgba(90, 82, 82, 0.405);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    margin: auto;
+}
+
+i:hover{
+    cursor: pointer;
+    color: red;
+}
+
+table td{
+    padding: 20px;
+    font-size: 20px;
+}
+
+/*upload files*/
+
+.upload{
+    position: relative;
+    top: 30vh;
+    left: 0vw;
+}
+
+/*background image*/
+
+
+
+.about > ul,li{
+    list-style-type: none;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about > ul > li > ul > li {
+    list-style-type: disc;
+    text-align: left;
+    line-height: 20px;
+}
+
+.about > ul > li{
+    text-align: left;
+}
+
+.about > ul > li > ul  > .Technologies{
+    list-style-type: none;
+    padding-left: 15px;
+}
+

@@ -1,0 +1,68 @@
+{% extends "master.html" %}
+
+{% block title %}
+  about this project
+{% endblock %}
+
+{% block content %}
+
+  <h1>About This mini project</h1>
+<div class="about">
+  <ul>
+    <li><h2>Sign In (Login) :</h2>
+        <ul>
+            <li>Users can log in with their username and password</li>
+            <li>Authenticates users using Django’s built-in authentication system.</li>
+            <li>Shows error messages on invalid credentials.</li>
+        </ul>
+    </li>
+
+    <li><h2>Sign Out (Logout) :</h2>
+        <ul>
+            <li>Users can securely log out.</li>
+            <li>Displays informational message on logout.</li>
+        </ul>
+    </li>
+
+    <li><h2>Sign Up (Registration) :</h2>
+        <ul>
+            <li>Checks for existing usernames to avoid duplicates</li>
+            <li>Creates new users and provides confirmation messages.</li>
+        </ul>
+    </li>
+
+    <li><h2>Role-Based Access :</h2>
+        <ul>
+            <li>The upload file button is restricted to superusers.</li>
+            <li>File deletion allows only the uploader or a superuser to delete.</li>
+            <li>Only authenticated user can download files</li>
+        </ul>
+    </li>
+
+    <li><h2>File Listing :</h2>
+        <ul>
+            <li>Supports filtering by department and year.</li>
+        </ul>
+    </li>
+
+    <li><h2>File Deletion :</h2>
+        <ul>
+            <li>Supports deleting files with permission checks.</li>
+            <li>Deletes both the file and database record.</li>
+        </ul>
+    </li>
+
+    <li><h2>Technologies Used :</h2>
+        <ul>
+            <li><b>Frontend : </b>
+            <li class="Technologies">  HTML</li>
+            <li class="Technologies">  CSS</li>
+            <li><b>Backend :</b> 
+            <li class="Technologies">  Django</li>
+        </ul>
+    </li>
+  </ul>
+</div>
+{% endblock %}
+
+
