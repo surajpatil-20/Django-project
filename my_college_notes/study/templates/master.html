@@ -8,8 +8,8 @@
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="{% block background_image %}{% endblock %}">
-  
+<body class="{% block body_class %}{% endblock %}">
+   {% block background_image %}{% endblock %}
   <div class="message">
     {% if messages %}
       <div class="messages">

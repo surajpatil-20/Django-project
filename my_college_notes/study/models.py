@@ -27,4 +27,4 @@ class UploadedFile(models.Model):
 
     def __str__(self):
         return f"{self.title} - {self.department} - Year {self.year}"
-# Create your models here.
+#Create your models here.

@@ -6,6 +6,23 @@ body{
     text-align: center;
     overflow-x: hidden;
 }
+
+body.auth-page {
+    background-image: url("back.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+body.auth-page::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.28);
+    pointer-events: none;
+}
 .success { color: green; }
 .error { color: red; }
 .info { color: blue; }
@@ -86,9 +103,6 @@ input{
     position: relative;
     top: 30vh;
 }
-
-
-
 
 
 /* home */
@@ -212,8 +226,6 @@ table td{
 
 /*background image*/
 
-
-
 .about > ul,li{
     list-style-type: none;
 }
@@ -237,4 +249,3 @@ table td{
     list-style-type: none;
     padding-left: 15px;
 }
-
